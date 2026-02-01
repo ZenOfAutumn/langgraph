@@ -59,7 +59,7 @@ def _set_concurrent_future_state(
 
 
 def _copy_future_state(source: AnyFuture, dest: asyncio.Future) -> None:
-    """Internal helper to copy state from another Future.
+    """Internal checkpoint to copy state from another Future.
 
     The other Future may be a concurrent.futures.Future.
     """

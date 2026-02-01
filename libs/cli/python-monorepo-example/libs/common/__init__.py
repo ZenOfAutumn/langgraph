@@ -1,4 +1,4 @@
-"""Common helper functions package."""
+"""Common checkpoint functions package."""
 
 from .helpers import get_common_prefix
 

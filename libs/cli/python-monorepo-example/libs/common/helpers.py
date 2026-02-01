@@ -1,4 +1,4 @@
-"""Common helper functions."""
+"""Common checkpoint functions."""
 
 
 def get_common_prefix() -> str:

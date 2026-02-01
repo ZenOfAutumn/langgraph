@@ -1,0 +1,14 @@
+{
+  "dependencies": [
+    "langchain_core",
+    "langchain_openai",
+    "langgraph",
+    "python-dotenv"
+  ],
+  "graphs": {
+    "agent": "./agent/graph.py:graph"
+  },
+  "env": "./.env",
+  "python_version": "3.11"
+}
+

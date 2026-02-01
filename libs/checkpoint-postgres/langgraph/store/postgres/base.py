@@ -658,7 +658,7 @@ class PostgresStore(BaseStore, BasePostgresStore[_pg_internal.Conn]):
             item = store.get(("users", "123"), "prefs")
         ```
 
-        Or using the convenient `from_conn_string` helper:
+        Or using the convenient `from_conn_string` checkpoint:
 
         ```python
         from langgraph.store.postgres import PostgresStore

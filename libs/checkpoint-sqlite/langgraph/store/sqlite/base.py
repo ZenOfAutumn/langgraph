@@ -722,7 +722,7 @@ class SqliteStore(BaseSqliteStore, BaseStore):
         item = store.get(("users", "123"), "prefs")
         ```
 
-        Or using the convenient `from_conn_string` helper:
+        Or using the convenient `from_conn_string` checkpoint:
 
         ```python
         from langgraph.store.sqlite import SqliteStore

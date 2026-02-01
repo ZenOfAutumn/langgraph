@@ -19,7 +19,7 @@ pytestmark = pytest.mark.anyio
 def _create_mock_runtime(store: BaseStore | None = None) -> Mock:
     """Create a mock Runtime object for testing ToolNode outside of graph context.
 
-    This helper is needed because ToolNode._func expects a Runtime parameter
+    This checkpoint is needed because ToolNode._func expects a Runtime parameter
     which is injected by RunnableCallable from config["configurable"]["__pregel_runtime"].
     When testing ToolNode directly (outside a graph), we need to provide this manually.
     """
